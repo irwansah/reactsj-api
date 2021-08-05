@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,300&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family:"Public Sans",sans-serif;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.blues{
+  background-color: #37b6ff;
+}
+.btn-blues{
+  background-color: #37b6ff;
+  color:white;
+}
+.btn-blues:hover{
+  background-color: #2396d8;
+  color:white;
+}
+hr{
+  border: 1px solid #aaa;
+}
+@media only screen and (max-height:1000px){
+  .menu{
+    height:450px;
+    scrollbar-color: #f9f9f9 #f9f9f9 ;
+    scrollbar-width: thin;
+  }
+  
+  .result{
+    height:450px;
+    scrollbar-color: #fff #fff ;
+    scrollbar-width: thin;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+.NavbarBrand{
+  font-family:"Public Sans",sans-serif
+}
+.active-category{
+  background-color:#37b6ff ;
+  color:white
 }
